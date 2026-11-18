@@ -1,4 +1,4 @@
-# memeswap-fun
+# MemeSwap
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -65,4 +65,121 @@
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
 memeswap-fun is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://memeswap.fun/
+
+**Areas:** Crypto · Meme Coins · Swap · Bridge · Non‑custodial · iPhone App
+
+## MemeSwap on APIs.io
+
+Everything profiled for MemeSwap is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/memeswap-fun/](https://apis.io/providers/memeswap-fun/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [MemeSwap Research API](https://apis.io/apis/memeswap-fun/memeswap-fun-research-api/) — Read-only token, chain, and public-address observations.
+- [MemeSwap Routing API](https://apis.io/apis/memeswap-fun/memeswap-fun-routing-api/) — Provider quotes and unsigned transaction construction.
+- [MemeSwap Solana RPC API](https://apis.io/apis/memeswap-fun/memeswap-fun-solana-rpc-api/) — Allowlisted reads and bounded relay of already-signed bytes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MemeSwap Agentic Access](https://apis.io/agentic-access/memeswap-fun/memeswap-fun-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BuildRequest](https://apis.io/schemas/memeswap-fun/memeswap-fun-build-request/)
+- [BuildResult](https://apis.io/schemas/memeswap-fun/memeswap-fun-build-result/)
+- [Chain](https://apis.io/schemas/memeswap-fun/memeswap-fun-chain/)
+- [CrossChainQuote](https://apis.io/schemas/memeswap-fun/memeswap-fun-cross-chain-quote/)
+- [Quote](https://apis.io/schemas/memeswap-fun/memeswap-fun-quote/)
+- [TokenProfile](https://apis.io/schemas/memeswap-fun/memeswap-fun-token-profile/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Memeswap Fun Context](https://apis.io/jsonld/memeswap-fun/memeswap-fun-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MemeSwap API Rules](https://apis.io/rules/memeswap-fun/memeswap-fun-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MemeSwap Domain Security](https://apis.io/security/memeswap-fun/memeswap-fun-domain-security/)
+- [MemeSwap Vulnerability Disclosure](https://apis.io/security/memeswap-fun/memeswap-fun-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://memeswap.fun/)
+- [Documentation](https://memeswap.fun/docs/)
+- [Security](https://memeswap.fun/safety.html)
+- [Terms of service](https://memeswap.fun/terms.html)
+- [Privacy policy](https://memeswap.fun/privacy.html)
+
+## API Evangelist rating
+
+**Kin Score 42.7** — developing · rubric 0.27.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 58.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 21.1 |
+
+**Agent readiness 28.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/memeswap-fun/](https://apis.io/providers/memeswap-fun/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MemeSwap: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/memeswap-fun/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
